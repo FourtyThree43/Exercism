@@ -1,0 +1,27 @@
+# Created by https://www.toptal.com/developers/gitignore/api/fsharp,dotnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=fsharp,dotnetcore
+
+### DotnetCore ###
+# .NET Core build folders
+bin/
+obj/
+
+# Common node modules locations
+/node_modules
+/wwwroot/node_modules
+
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+bin
+/build/
+*.exe
+!.paket/paket.bootstrapper.exe
+.ionide/
+.fake
+
+# End of https://www.toptal.com/developers/gitignore/api/fsharp,dotnetcore
